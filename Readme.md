@@ -1,6 +1,6 @@
-﻿**🌦️ Time Series Forecasting & Anomaly Detection with VAE & GRU**
+# ﻿**🌦️ Time Series Forecasting & Anomaly Detection with VAE & GRU**
 
-**📌 Project Overview**
+# **📌 Project Overview**
 
 This project implements **Time Series Forecasting** and **Anomaly Detection** on weather data using:
 
@@ -9,11 +9,11 @@ This project implements **Time Series Forecasting** and **Anomaly Detection** on
 
 The dataset used is the **Hourly Weather Surface - Brazil** dataset, containing temperature, humidity, wind speed, and other atmospheric conditions.
 
-**📊 Dataset**
+# **📊 Dataset**
 
 **Source**: Kaggle - Hourly Weather Surface, Brazil
 
-**🔹 Data Preprocessing**
+# **🔹 Data Preprocessing**
 
 - Exploratory Data Analysis (EDA): Visualizing feature distributions, time series plots.
 - Handling missing values and outliers.
@@ -21,9 +21,9 @@ The dataset used is the **Hourly Weather Surface - Brazil** dataset, containing 
 - Creating sequences for time series forecasting.
 - Splitting into training, validation, and test sets.
 
-**🛠️ Implementation Steps**
+# **🛠️ Implementation Steps**
 
-**Part 1: VAE for Anomaly Detection**
+# **Part 1: VAE for Anomaly Detection**
 
 ✅ **Model Architecture**
 
@@ -78,7 +78,7 @@ The dataset used is the **Hourly Weather Surface - Brazil** dataset, containing 
 - Uses **VAE** for anomaly detection in input data
 - Evaluates **GRU performance on normal vs. anomalous data**
 
-**📌 Results & Insights**
+# **📌 Results & Insights**
 
 - Effectiveness of **VAE in anomaly detection**
 - **Performance comparison** of GRU vs. LSTM vs. RNN
